@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -104,6 +106,25 @@ body {
 
 .projects-item {
     
+}
+
+.contact-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
 }
 
 .footer-container {
@@ -178,9 +199,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
-    color: #F1F1F1;
-    border: 2px solid #666666;
+    background: #74b44a;
+    color: #1d1818;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
